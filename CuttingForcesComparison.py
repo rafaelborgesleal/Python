@@ -19,3 +19,6 @@ def phi_leeshaffer(alpha_deg, mu):
     beta = np.degrees(np.arctan(mu))
     return 45.0 + alpha_deg - beta  # From φ + β - α = 45° 
 
+phis = phi_merchant(alphas_deg, 0.3)
+print(phis)
+
